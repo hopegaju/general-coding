@@ -12,9 +12,8 @@
     --header-color: #fff;
     --header-text-size: 1.5em;
     --main-bg: #f1f1f1;
-    --main-color: #333;
     --main-text-size: 1em;
-    --footer-bg: #333;
+    --footer-bg: #4d6370;
     --footer-color: #fff;
     --footer-text-size: 0.8em;
 }
@@ -22,7 +21,7 @@
 body {
     background: #f1f1f1;
     display: flex;
-    
+    flex-direction: column;
 }
 
 /* header styling */
@@ -61,4 +60,43 @@ header {
     height: 100%;
     border-radius: 50%;
     display: flex;
+}
+
+/* main styling */
+main {
+    background: var(--main-bg);
+    color: var(--main-color);
+    padding: 20px;
+}
+.contain{
+    border: 2px solid black;
+    width: 40%;
+}
+
+.child-img{
+    width: 20%;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid black;
+    
+}
+.contain-child img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* footer styling */
+
+.footer {
+    background: var(--footer-bg);
+    color: var(--footer-color);
+    padding: 10px;
+    width: 100%;
+}
+.link{
+    width: 100%;
+    height: auto;
+    margin-right: 10px;
+    background: #303f46;
 }
