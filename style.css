@@ -104,20 +104,33 @@ main {
     flex-direction: column;
     font-size: var(--main-text-size);
     margin: 10px;
+    padding: 10px;
 }
 .child-head span{
     font-size: var(--main-text-size);
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 .child-head input{
     font-size: var(--main-text-size);
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 .child-head a{
     background-color: #607d8b;
     color: var(--icon-color);
     width: 26%;
     padding: 5px;
+}
+.body-img{
+    display: grid;
+    width: 20%;
+
+}
+.child-body-text{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--main-text-size);
+    margin: 10px;
+
 }
 #img-body{
     width: 100%;
